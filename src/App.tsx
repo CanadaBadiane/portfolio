@@ -5,14 +5,16 @@ import Technologies from "./components/Technologies";
 import Projects from "./components/Projects";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
+import FloatingIcons from "./components/FloatingIcons";
 
 function App() {
   return (
-    <div className="bg-gray-100 text-gray-800">
+    <div className="relative bg-gradient-to-br from-indigo-900 via-purple-900 to-blue-900 text-white overflow-hidden">
       <Header />
-      <main className="space-y-16 px-4 md:px-12 py-8">
-        <Hero />
+      <Hero />
+      <main className="relative space-y-16 px-4 md:px-12 py-8">
         <About />
+        <FloatingIcons />
         <Technologies />
         <Projects />
         <Contact />
