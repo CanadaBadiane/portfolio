@@ -1,5 +1,6 @@
 import { useEffect, useRef } from "react";
 
+// Composant Hero avec animation de fond en code binaire
 const Hero = () => {
   const canvasRef = useRef<HTMLCanvasElement>(null);
 
@@ -41,8 +42,12 @@ const Hero = () => {
     return () => clearInterval(interval);
   }, []);
 
+  // Rendu du composant Hero
   return (
-    <section className="relative h-screen w-full rounded-md flex flex-col justify-center items-center text-center bg-gradient-to-br from-indigo-800 via-purple-700 to-blue-900 overflow-hidden">
+    <section
+      id="hero"
+      className="relative h-screen w-full rounded-md flex flex-col justify-center items-center text-center bg-gradient-to-br from-indigo-800 via-purple-700 to-blue-900 overflow-hidden"
+    >
       <canvas ref={canvasRef} className="absolute inset-0 w-full h-full z-0" />
 
       <h1 className="text-6xl font-bold text-white font-mono z-10 drop-shadow-lg typewriter-delay">
@@ -51,8 +56,8 @@ const Hero = () => {
       <p className="text-2xl mt-4 text-white font-mono z-10">
         Développeuse Web & Mobile
       </p>
-      <button className="mt-6 px-6 py-2 bg-indigo-700 text-white rounded hover:bg-indigo-800 z-10 shadow-md">
-        Voir mes projets
+      <button className="btn-shine mt-6 px-6 py-2 text-white rounded-lg z-10 shadow-md border-4 border-green-600 transition-transform duration-300 hover:scale-110 hover:animate-bounce">
+        Télécharger mon C.V
       </button>
     </section>
   );

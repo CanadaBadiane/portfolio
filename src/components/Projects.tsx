@@ -1,6 +1,6 @@
 export default function Projects() {
   return (
-    <section>
+    <section id="projects">
       <h2 className="text-xl font-semibold mb-4">Mes projets</h2>
       <div className="grid md:grid-cols-3 gap-4">
         {[1, 2, 3].map((i) => (

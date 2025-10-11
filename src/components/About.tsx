@@ -1,6 +1,6 @@
 export default function About() {
   return (
-    <section>
+    <section id="about">
       <h2 className="text-xl font-semibold mb-2">À propos de moi</h2>
       <p>
         Je suis étudiante en développement logiciel, passionnée par le
