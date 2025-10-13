@@ -1,3 +1,4 @@
+// Images d'icones flottantes
 const FloatingIcons = () => {
   return (
     <>
