@@ -1,6 +1,6 @@
 const Header = () => {
   return (
-    <header className="bg-gradient-to-r from-blue-950 to-black text-white p-3 text-center">
+    <header className="bg-gradient-to-r from-blue-950 to-black text-white p-3 text-center fixed top-0 w-full z-50 shadow-md">
       <div className="flex justify-between mt-3 justify-items-center items-center px-4 md:px-5">
         <h1 className="text-3xl font-bold font-mono bg-gradient-to-r from-fuchsia-400 via-purple-500 to-indigo-400 bg-clip-text text-transparent drop-shadow-lg">
           <img

@@ -1,6 +1,6 @@
 const About = () => {
   return (
-    <section id="about">
+    <section id="about" className="scroll-mt-20">
       <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
         {/* Colonne gauche */}
         <div className="flex flex-col items-start">

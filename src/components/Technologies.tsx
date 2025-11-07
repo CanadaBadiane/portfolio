@@ -1,6 +1,6 @@
 const Technologies = () => {
   return (
-    <section id="technologies">
+    <section id="technologies" className="scroll-mt-20">
       <h2 className="text-xl font-semibold mb-8">
         Compétences{" "}
         <span className="font-bold text-indigo-400 text-2xl">
