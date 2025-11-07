@@ -10,12 +10,37 @@ const Header = () => {
           />
           Canada Badiane
         </h1>
-        <nav className="flex justify-start gap-8">
-          <a href="#hero">Accueil</a>
-          <a href="#about">À propos de moi</a>
-          <a href="#technologies">Technologies</a>
-          <a href="#projects">Mes projets</a>
-          <a href="#contact">Contact</a>
+        <nav className="flex justify-start gap-4">
+          <a
+            href="#hero"
+            className="font-mono text-sm uppercase tracking-wider px-3 py-1 rounded-md transition-all duration-200 text-white hover:text-fuchsia-300 hover:bg-white/5 hover:-translate-y-0.5 hover:shadow-[0_6px_24px_rgba(168,85,247,0.12)] hover:ring-1 hover:ring-fuchsia-500"
+          >
+            Accueil
+          </a>
+          <a
+            href="#about"
+            className="font-mono text-sm uppercase tracking-wider px-3 py-1 rounded-md transition-all duration-200 text-white hover:text-fuchsia-300 hover:bg-white/5 hover:-translate-y-0.5 hover:shadow-[0_6px_24px_rgba(168,85,247,0.12)] hover:ring-1 hover:ring-fuchsia-500"
+          >
+            À propos de moi
+          </a>
+          <a
+            href="#technologies"
+            className="font-mono text-sm uppercase tracking-wider px-3 py-1 rounded-md transition-all duration-200 text-white hover:text-fuchsia-300 hover:bg-white/5 hover:-translate-y-0.5 hover:shadow-[0_6px_24px_rgba(168,85,247,0.12)] hover:ring-1 hover:ring-fuchsia-500"
+          >
+            Technologies
+          </a>
+          <a
+            href="#projects"
+            className="font-mono text-sm uppercase tracking-wider px-3 py-1 rounded-md transition-all duration-200 text-white hover:text-fuchsia-300 hover:bg-white/5 hover:-translate-y-0.5 hover:shadow-[0_6px_24px_rgba(168,85,247,0.12)] hover:ring-1 hover:ring-fuchsia-500"
+          >
+            Mes projets
+          </a>
+          <a
+            href="#contact"
+            className="font-mono text-sm uppercase tracking-wider px-3 py-1 rounded-md transition-all duration-200 text-white hover:text-fuchsia-300 hover:bg-white/5 hover:-translate-y-0.5 hover:shadow-[0_6px_24px_rgba(168,85,247,0.12)] hover:ring-1 hover:ring-fuchsia-500"
+          >
+            Contact
+          </a>
         </nav>
         <div className="flex gap-2">
           <a

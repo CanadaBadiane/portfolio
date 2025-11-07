@@ -3,7 +3,7 @@ import { PhoneIcon } from "@heroicons/react/24/outline";
 import { MapPinIcon } from "@heroicons/react/24/outline";
 import { toast, Toaster } from "react-hot-toast";
 
-export default function Contact() {
+const Contact = () => {
   const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     const form = e.currentTarget;
@@ -137,4 +137,6 @@ export default function Contact() {
       </div>
     </section>
   );
-}
+};
+
+export default Contact;
