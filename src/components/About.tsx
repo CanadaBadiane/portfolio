@@ -14,7 +14,7 @@ const About = () => {
           </h2>
           <div className="relative w-auto h-auto overflow-hidden rounded-2xl border-4 border-white shadow-[0_0_24px_8px_rgba(236,72,153,0.7)]">
             <img
-              src="/images/Profil/moi.png"
+              src="/images/profil/moi.png"
               alt="Profil"
               className="max-w-[300px] w-auto h-auto object-contain transition-transform duration-500 transform hover:rotate-12"
             />

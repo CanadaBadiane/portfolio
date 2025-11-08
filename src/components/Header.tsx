@@ -9,7 +9,7 @@ const Header = () => {
         {/* Logo et titre */}
         <h1 className="text-3xl font-bold font-mono bg-gradient-to-r from-fuchsia-400 via-purple-500 to-indigo-400 bg-clip-text text-transparent drop-shadow-lg">
           <img
-            src="/images/code.png"
+            src="/images/icons/code.png"
             alt="Canada Badiane Logo"
             className="inline-block w-10 h-10 ml-2 mr-2 align-middle"
           />
@@ -79,7 +79,7 @@ const Header = () => {
               className="w-8 h-8 inline-flex items-center justify-center rounded-full hover:bg-orange-300 transition"
             >
               <img
-                src="/images/github.png"
+                src="/images/icons/github.png"
                 alt="GitHub icon"
                 className="w-8 h-8"
               />
@@ -91,7 +91,7 @@ const Header = () => {
               className="w-8 h-8 inline-flex items-center justify-center rounded-full hover:bg-green-600 transition"
             >
               <img
-                src="/images/link.png"
+                src="/images/icons/link.png"
                 alt="Linkedin icon"
                 className="w-10 h-10 mix-blend-screen"
               />
@@ -103,7 +103,7 @@ const Header = () => {
               className="w-8 h-8 inline-flex items-center justify-center rounded-full hover:bg-blue-600 transition"
             >
               <img
-                src="/images/email6.png"
+                src="/images/icons/email6.png"
                 alt="Email icon"
                 className="w-8 h-8 mix-blend-screen"
               />
@@ -120,7 +120,7 @@ const Header = () => {
             className="w-8 h-8 inline-flex items-center justify-center rounded-full hover:bg-orange-300 transition"
           >
             <img
-              src="/images/github.png"
+              src="/images/icons/github.png"
               alt="GitHub icon"
               className="w-8 h-8"
             />
@@ -132,7 +132,7 @@ const Header = () => {
             className="w-8 h-8 inline-flex items-center justify-center rounded-full hover:bg-green-600 transition"
           >
             <img
-              src="/images/link.png"
+              src="/images/icons/link.png"
               alt="Linkedin icon"
               className="w-10 h-10 mix-blend-screen"
             />
@@ -144,7 +144,7 @@ const Header = () => {
             className="iw-8 h-8 nline-flex items-center justify-center rounded-full hover:bg-blue-600 transition"
           >
             <img
-              src="/images/email6.png"
+              src="/images/icons/email6.png"
               alt="Email icon"
               className="w-8 h-8 mix-blend-screen"
             />

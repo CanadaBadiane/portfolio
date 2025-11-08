@@ -71,7 +71,7 @@ const Contact = () => {
                 className="w-8 h-8 inline-flex items-center justify-center rounded-full hover:bg-orange-300 transition"
               >
                 <img
-                  src="/images/github.png"
+                  src="/images/icons/github.png"
                   alt="GitHub icon"
                   className="w-8 h-8"
                 />
@@ -83,7 +83,7 @@ const Contact = () => {
                 className="w-8 h-8 inline-flex items-center justify-center rounded-full hover:bg-green-600 transition"
               >
                 <img
-                  src="/images/link.png"
+                  src="/images/icons/link.png"
                   alt="Linkedin icon"
                   className="w-10 h-10 mix-blend-screen"
                 />
