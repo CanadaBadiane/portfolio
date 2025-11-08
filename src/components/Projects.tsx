@@ -1,3 +1,4 @@
+// Composant Projects avec liste de projets
 const Projects = () => {
   //Liste des projets
   const projects = [
@@ -79,6 +80,7 @@ const Projects = () => {
             rel="noopener noreferrer"
             className="group relative bg-white/5 p-4 shadow rounded-lg overflow-hidden transform transition duration-300 hover:scale-105 hover:rotate-3 hover:bg-gradient-to-br hover:from-indigo-800 hover:to-purple-700 text-left"
           >
+            {/* Statut du projet */}
             <span
               className={`absolute top-3 right-3 inline-flex items-center gap-2 text-xs font-mono px-2 py-1 rounded-full ${
                 p.status === "En cours"

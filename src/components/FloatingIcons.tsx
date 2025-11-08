@@ -1,5 +1,6 @@
 // Images d'icones flottantes
 const FloatingIcons = () => {
+  // Rendu des icônes flottantes
   return (
     <>
       <div className="absolute inset-0 z-0 pointer-events-none">

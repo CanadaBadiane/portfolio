@@ -3,6 +3,7 @@ import { PhoneIcon } from "@heroicons/react/24/outline";
 import { MapPinIcon } from "@heroicons/react/24/outline";
 import { toast, Toaster } from "react-hot-toast";
 
+// Composant Contact avec formulaire de contact
 const Contact = () => {
   const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
@@ -30,6 +31,7 @@ const Contact = () => {
     }
   };
 
+  // Rendu du composant Contact
   return (
     <section id="contact" className="scroll-mt-20">
       <Toaster position="top-center" />

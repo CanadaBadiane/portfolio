@@ -1,8 +1,10 @@
 import { useState } from "react";
 
+// Composant Header avec navigation responsive
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
 
+  // Rendu du composant Header
   return (
     <header className="bg-gradient-to-r from-blue-950 to-black text-white p-3 text-center fixed top-0 w-full z-50 shadow-md">
       <div className="flex justify-between items-center px-4 lg:px-5">

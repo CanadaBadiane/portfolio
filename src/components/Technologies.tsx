@@ -1,4 +1,6 @@
+// Composant Technologies avec liste de compétences
 const Technologies = () => {
+  // Rendu du composant Technologies
   return (
     <section id="technologies" className="scroll-mt-20">
       <h2 className="text-xl font-semibold mb-8">

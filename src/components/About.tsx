@@ -1,4 +1,6 @@
+// Composant About avec timeline et description
 const About = () => {
+  // Rendu du composant About
   return (
     <section id="about" className="scroll-mt-20">
       <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
@@ -21,19 +23,51 @@ const About = () => {
           </div>
           <div className="bg-white/10 p-4 rounded-lg shadow-md w-3/4 text-left mt-6 relative z-10">
             <p>
-              Passionnée par le développement web, je me forme activement aux
-              technologies frontend pour créer des expériences utilisateur
-              intuitives et performantes. C’est en créant mon premier site
-              e-commerce que j’ai découvert ma passion pour le développement
-              web, en particulier le côté frontend. J’ai adoré concevoir
-              l’interface, jouer avec les couleurs, les animations, et rendre
-              l’expérience utilisateur fluide et intuitive. Ce projet m’a donné
-              envie d’aller plus loin, de comprendre les bonnes pratiques, et de
-              structurer mon code de manière professionnelle. C’est ce déclic
-              qui m’a poussé à me lancer dans une formation en informatique, où
-              j’ai pu approfondir HTML et CSS, et apprendre React, Tailwind et
-              plus encore. Depuis, je continue à explorer le design tech et
-              j'apprend également la logique du backend.
+              <span className="text-fuchsia-400 font-semibold">Passionnée</span>{" "}
+              par le{" "}
+              <span className="text-fuchsia-400 font-semibold">
+                développement web
+              </span>
+              , j'ai découvert le frontend en créant mon premier{" "}
+              <span className="text-fuchsia-400 font-semibold">
+                site e-commerce
+              </span>
+              . J'ai adoré concevoir l'interface, jouer avec les couleurs et les
+              animations pour offrir une{" "}
+              <span className="text-fuchsia-400 font-semibold">
+                expérience fluide
+              </span>
+              . Ce projet m'a donné envie d'approfondir les{" "}
+              <span className="text-fuchsia-400 font-semibold">
+                bonnes pratiques
+              </span>{" "}
+              et de{" "}
+              <span className="text-fuchsia-400 font-semibold">structurer</span>{" "}
+              mon code. En formation de{" "}
+              <span className="text-fuchsia-400 font-semibold">
+                développement de logiciels
+              </span>
+              , j'ai consolidé mes bases en{" "}
+              <span className="text-fuchsia-400 font-semibold">HTML/CSS</span>{" "}
+              et appris{" "}
+              <span className="text-fuchsia-400 font-semibold">React</span>,{" "}
+              <span className="text-fuchsia-400 font-semibold">Tailwind</span>{" "}
+              et les logiques{" "}
+              <span className="text-fuchsia-400 font-semibold">backend</span>.
+              Je continue à explorer le design tech, tout en m'initiant avec
+              enthousiasme au{" "}
+              <span className="text-fuchsia-400 font-semibold">
+                développement mobile
+              </span>{" "}
+              avec{" "}
+              <span className="text-fuchsia-400 font-semibold">Flutter</span>.
+              Je suis actuellement à la recherche d'un{" "}
+              <span className="text-fuchsia-400 font-semibold">stage</span> pour
+              mettre en pratique mes compétences et contribuer à des{" "}
+              <span className="text-fuchsia-400 font-semibold">
+                projets innovants
+              </span>
+              .
             </p>
           </div>
         </div>
