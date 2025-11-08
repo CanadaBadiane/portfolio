@@ -12,11 +12,13 @@ const About = () => {
               UNIVERS DIGITAL
             </span>{" "}
           </h2>
-          <img
-            src="/images/profil.JPG"
-            alt="Profil"
-            className="w-60 h-70 object-cover rounded-2xl shadow-[0_0_24px_8px_rgba(236,72,153,0.7)] border-4 border-white"
-          />
+          <div className="relative w-auto h-auto overflow-hidden rounded-2xl border-4 border-white shadow-[0_0_24px_8px_rgba(236,72,153,0.7)]">
+            <img
+              src="/images/Profil/moi.png"
+              alt="Profil"
+              className="max-w-[300px] w-auto h-auto object-contain transition-transform duration-500 transform hover:rotate-12"
+            />
+          </div>
           <div className="bg-white/10 p-4 rounded-lg shadow-md w-3/4 text-left mt-6 relative z-10">
             <p>
               Passionnée par le développement web, je me forme activement aux
