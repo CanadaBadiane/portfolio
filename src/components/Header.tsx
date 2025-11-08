@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState } from "react";
 
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -17,26 +17,27 @@ const Header = () => {
         </h1>
 
         {/* Bouton burger */}
-        <button
-          onClick={() => setIsOpen(!isOpen)}
-          className="lg:hidden"
-        >
-          <svg
-            className="w-6 h-6"
-            fill="white"
-            viewBox="0 0 24 24"
-          >
+        <button onClick={() => setIsOpen(!isOpen)} className="lg:hidden">
+          <svg className="w-6 h-6" fill="white" viewBox="0 0 24 24">
             {isOpen ? (
               <path d="M6 18L18 6M6 6l12 12" stroke="white" strokeWidth="2" />
             ) : (
-              <path d="M4 6h16M4 12h16M4 18h16" stroke="white" strokeWidth="2" />
+              <path
+                d="M4 6h16M4 12h16M4 18h16"
+                stroke="white"
+                strokeWidth="2"
+              />
             )}
           </svg>
         </button>
 
         {/* Menu desktop et mobile */}
         <nav
-          className={`lg:flex gap-4 ${isOpen ? 'flex flex-col absolute top-16 left-0 right-0 bg-blue-950 p-4' : 'hidden'}`}
+          className={`lg:flex gap-4 ${
+            isOpen
+              ? "flex flex-col absolute top-16 left-0 right-0 bg-blue-950 p-4"
+              : "hidden"
+          }`}
         >
           <a
             href="#hero"
@@ -84,7 +85,7 @@ const Header = () => {
               />
             </a>
             <a
-              href="#"
+              href="https://www.linkedin.com/in/canada-badiane-132b60175/"
               target="_blank"
               rel="noopener noreferrer"
               className="w-8 h-8 inline-flex items-center justify-center rounded-full hover:bg-green-600 transition"
@@ -125,7 +126,7 @@ const Header = () => {
             />
           </a>
           <a
-            href="#"
+            href="https://www.linkedin.com/in/canada-badiane-132b60175/"
             target="_blank"
             rel="noopener noreferrer"
             className="w-8 h-8 inline-flex items-center justify-center rounded-full hover:bg-green-600 transition"

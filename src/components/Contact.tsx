@@ -77,7 +77,7 @@ const Contact = () => {
                 />
               </a>
               <a
-                href="#"
+                href="https://www.linkedin.com/in/canada-badiane-132b60175/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-8 h-8 inline-flex items-center justify-center rounded-full hover:bg-green-600 transition"
