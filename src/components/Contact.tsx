@@ -37,8 +37,8 @@ const Contact = () => {
         <span className="font-bold text-indigo-400 text-2xl">Contactez</span>
         -Moi
       </h2>
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
-        <div className="bg-white/10 p-6 rounded-lg w-1/2">
+      <div className="grid grid-cols-1 lg:grid-cols-2 gap-3">
+        <div className="bg-white/10 p-6 rounded-lg lg:w-1/2 w-full">
           <h3 className="font-semibold text-xl mb-4 text-indigo-300">
             Informations
           </h3>

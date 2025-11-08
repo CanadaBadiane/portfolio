@@ -70,7 +70,7 @@ const Projects = () => {
       <h2 className="text-xl font-semibold mb-4">
         Mes <span className="font-bold text-indigo-400 text-2xl">Projets</span>
       </h2>
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
         {projects.map((p) => (
           <a
             key={p.id}

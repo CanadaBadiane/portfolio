@@ -8,7 +8,7 @@ const Technologies = () => {
         </span>
       </h2>
       {/* Grille des technologies */}
-      <div className="grid grid-cols-6 gap-3 text-center">
+      <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-3 text-center">
         <p className="relative overflow-hidden border-2 rounded-xl p-2 border-indigo-400 group transition-shadow duration-300 hover:shadow-[0_0_20px_10px_rgba(99,102,241,0.6)]">
           <span className="absolute inset-0 bg-gradient-to-r from-indigo-400 to-indigo-500 w-0 group-hover:w-full transition-all duration-300 z-0"></span>
           <span className="relative z-10 font-bold text-indigo-400 group-hover:text-white transition-colors duration-300">
