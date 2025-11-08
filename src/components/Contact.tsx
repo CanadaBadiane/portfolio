@@ -27,6 +27,7 @@ const Contact = () => {
         throw new Error();
       }
     } catch (error) {
+      console.error("Erreur d'envoi:", error);
       toast.error("Erreur lors de l'envoi");
     }
   };
