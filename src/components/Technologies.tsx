@@ -105,6 +105,18 @@ const Technologies = () => {
             Next.js
           </span>
         </p>
+        <p className="relative overflow-hidden border-2 rounded-xl p-2 border-purple-400 group transition-shadow duration-300 hover:shadow-[0_0_20px_10px_rgba(192,132,252,0.6)]">
+          <span className="absolute inset-0 bg-gradient-to-r from-purple-400 to-purple-500 w-0 group-hover:w-full transition-all duration-300 z-0"></span>
+          <span className="relative z-10 font-bold text-purple-400 group-hover:text-white transition-colors duration-300">
+            SQL
+          </span>
+        </p>
+        <p className="relative overflow-hidden border-2 rounded-xl p-2 border-purple-400 group transition-shadow duration-300 hover:shadow-[0_0_20px_10px_rgba(192,132,252,0.6)]">
+          <span className="absolute inset-0 bg-gradient-to-r from-purple-400 to-purple-500 w-0 group-hover:w-full transition-all duration-300 z-0"></span>
+          <span className="relative z-10 font-bold text-purple-400 group-hover:text-white transition-colors duration-300">
+            Prisma
+          </span>
+        </p>
       </div>
     </section>
   );

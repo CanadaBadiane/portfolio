@@ -54,7 +54,9 @@ const Contact = () => {
             </div>
             <div className="flex items-center">
               <MapPinIcon className="w-12 h-12 text-red-500 mr-3 border border-red-500 p-1 rounded-lg hover:shadow-[0_0_10px_#ef4444] hover:animate-spin" />
-              <p className="font-semibold text-md">Montréal, Québec, Canada</p>
+              <p className="font-semibold text-md">
+                Montréal, (Québec), Canada
+              </p>
             </div>
           </div>
           <div className="mt-6 border-t border-white pt-4">

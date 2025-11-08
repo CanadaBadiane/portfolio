@@ -4,7 +4,7 @@ const Projects = () => {
     {
       id: 1,
       title: "Portfolio",
-      desc: "Portfolio personnel codé avec React et Tailwind, présentant mes projets et compétences en développement.",
+      desc: "Portfolio personnel codé avec React et Tailwind, présentant mes projets et compétences en développement web et mobile.",
       image: "/images/projects/portfolio.png",
       languages: ["React", "Tailwind CSS", "TypeScript", "Vite"],
       link: "https://github.com/CanadaBadiane/portfolio",
