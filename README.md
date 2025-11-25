@@ -7,7 +7,7 @@ Portfolio professionnel développé avec React, TypeScript et Tailwind CSS, pré
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-3.4.17-38B2AC?logo=tailwind-css&logoColor=white)
 ![Vite](https://img.shields.io/badge/Vite-6.0.3-646CFF?logo=vite&logoColor=white)
 
-## 📋 Table des matières
+## Table des matières
 
 - [Aperçu](#aperçu)
 - [Fonctionnalités](#fonctionnalités)
@@ -18,7 +18,7 @@ Portfolio professionnel développé avec React, TypeScript et Tailwind CSS, pré
 - [Déploiement](#déploiement)
 - [Contact](#contact)
 
-## 🎯 Aperçu
+## Aperçu
 
 Portfolio interactif et responsive présentant :
 
@@ -28,9 +28,9 @@ Portfolio interactif et responsive présentant :
 - Un formulaire de contact fonctionnel
 - Une interface moderne avec effets visuels
 
-**🔗 Démo en ligne :** [Lien vers ton site déployé]
+**Démo en ligne :** https://canadabadiane-portfolio.dev/
 
-## ✨ Fonctionnalités
+## Fonctionnalités
 
 ### 🏠 Section Hero
 
@@ -39,20 +39,20 @@ Portfolio interactif et responsive présentant :
 - Bouton de téléchargement du CV avec animation shine
 - Design dégradé moderne (indigo → purple → blue)
 
-### 👤 À propos
+### À propos
 
 - Timeline verticale avec corde stylisée et point lumineux
 - Présentation de mon parcours en développement
 - Photo de profil avec effet hover rotation
 - Design responsive avec colonnes adaptatives
 
-### 💻 Technologies
+### Technologies
 
 - Grille responsive (2/4/6 colonnes selon la taille d'écran)
 - Icônes avec effets hover et animations flottantes
 - Badges pour chaque technologie maîtrisée
 
-### 🚀 Projets
+### Projets
 
 - Cartes de projets avec images, descriptions et technologies
 - Badges de statut (Terminé/En cours) avec points lumineux
@@ -60,7 +60,7 @@ Portfolio interactif et responsive présentant :
 - Liens vers les repositories GitHub
 - Grille responsive (1/2/3 colonnes)
 
-### 📬 Contact
+### Contact
 
 - Formulaire fonctionnel avec Formspree
 - Notifications toast élégantes (react-hot-toast)
@@ -68,7 +68,7 @@ Portfolio interactif et responsive présentant :
 - Liens vers GitHub et LinkedIn
 - Design avec opacité et effets de focus
 
-### 🎨 Design & UX
+### Design & UX
 
 - Menu burger responsive (breakpoint lg: 1024px)
 - Navigation smooth scroll
@@ -76,7 +76,7 @@ Portfolio interactif et responsive présentant :
 - Dégradés de couleurs cohérents (fuchsia/purple/indigo)
 - Effets hover sur tous les éléments interactifs
 
-## 🛠️ Technologies utilisées
+## Technologies utilisées
 
 ### Frontend
 
@@ -100,7 +100,7 @@ Portfolio interactif et responsive présentant :
 - **Formspree** - Gestion des formulaires de contact
 - **Canvas API** - Animation des particules
 
-## 📦 Installation
+## Installation
 
 ### Prérequis
 
@@ -134,7 +134,7 @@ npm run dev
 http://localhost:5173
 ```
 
-## 📜 Scripts disponibles
+## Scripts disponibles
 
 ```bash
 # Développement - Lance le serveur avec hot reload
@@ -150,7 +150,7 @@ npm run preview
 npm run lint
 ```
 
-## 📁 Structure du projet
+## Structure du projet
 
 ```
 portfolio/
@@ -184,7 +184,7 @@ portfolio/
 └── README.md
 ```
 
-## 🚀 Déploiement
+## Déploiement
 
 ### Vercel
 
@@ -194,7 +194,7 @@ portfolio/
    - Output Directory: `dist`
 3. **Deploy**
 
-## 🎨 Personnalisation
+## Personnalisation
 
 ### Couleurs
 
@@ -214,10 +214,10 @@ Les animations personnalisées sont dans `src/index.css` :
 - **Technologies** : Modifie la grille dans `src/components/Technologies.tsx`
 - **À propos** : Édite le texte dans `src/components/About.tsx`
 
-## 📧 Contact
+## Contact
 
 **Canada Badiane**
 
-- 📧 Email : [canada1555@hotmail.com](mailto:canada1555@hotmail.com)
-- 💼 LinkedIn : [canada-badiane-132b60175](https://www.linkedin.com/in/canada-badiane-132b60175/)
-- 🐙 GitHub : [@CanadaBadiane](https://github.com/CanadaBadiane)
+- Email : [canada1555@hotmail.com](mailto:canada1555@hotmail.com)
+- LinkedIn : [canada-badiane-132b60175](https://www.linkedin.com/in/canada-badiane-132b60175/)
+- GitHub : [@CanadaBadiane](https://github.com/CanadaBadiane)

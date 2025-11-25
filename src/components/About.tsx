@@ -54,8 +54,12 @@ const About = () => {
               <span className="text-fuchsia-400 font-semibold">Tailwind</span>{" "}
               et les logiques{" "}
               <span className="text-fuchsia-400 font-semibold">backend</span>.
-              Je continue à explorer le design tech, tout en m'initiant avec
-              enthousiasme au{" "}
+              Je continue à explorer le design tech et à développer mes
+              compétences sur la{" "}
+              <span className="text-fuchsia-400 font-semibold">
+                logique métier
+              </span>
+              , tout en m'initiant avec enthousiasme au{" "}
               <span className="text-fuchsia-400 font-semibold">
                 développement mobile
               </span>{" "}
