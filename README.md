@@ -32,7 +32,7 @@ Portfolio interactif et responsive présentant :
 
 ## Fonctionnalités
 
-### 🏠 Section Hero
+### Section Hero
 
 - Animation de particules Canvas interactive
 - Effet de machine à écrire pour le titre
