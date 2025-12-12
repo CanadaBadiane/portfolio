@@ -40,6 +40,15 @@ const Projects = () => {
     },
     {
       id: 4,
+      title: "Quizy Master",
+      desc: "Application mobile multiplateforme qui permet aux utilisateurs de tester leurs connaissances à travers différentes catégories et modes de jeu.",
+      image: "/images/projects/quizyMaster.png",
+      languages: ["Flutter", "Dart", "Firebase"],
+      link: "https://github.com/CanadaBadiane/Quizy-Master",
+      status: "En cours",
+    },
+    {
+      id: 5,
       title: "Ma Blibliothèque Personnelle",
       desc: "Application web permettant de gérer sa bibliothèque personnelle : ajout, modification, suppression de ses livres et une page catalogue.",
       image: "/images/projects/maBibliotheque.png",
@@ -55,7 +64,7 @@ const Projects = () => {
       status: "Terminé",
     },
     {
-      id: 5,
+      id: 6,
       title: "Pokédex",
       desc: "Page web statique affichant une galerie d’images Pokémon, conçue en HTML et CSS.",
       image: "/images/projects/pokedex.png",
