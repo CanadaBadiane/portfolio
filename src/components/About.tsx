@@ -139,9 +139,7 @@ const About = () => {
                   </div>
                 </div>
                 <div className="bg-white/10 p-4 rounded-lg shadow-md w-full text-left">
-                  <span className="font-bold text-fuchsia-400">
-                    Présentement
-                  </span>
+                  <span className="font-bold text-fuchsia-400">2025</span>
                   <div>
                     <span className="font-bold">
                       Apprentissage du web transactionnel, de Flutter et de la
