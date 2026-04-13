@@ -71,24 +71,6 @@ const Projects = () => {
       link: "https://github.com/CanadaBadiane/QuickParking",
       status: "En cours",
     },
-    {
-      id: 7,
-      title: "CasaMode",
-      desc: "Application web de boutique en ligne proposant des vêtements stylés pour femmes et hommes, avec une interface moderne et facile à utiliser.",
-      image: "/images/projects/casamode.png",
-      languages: [
-        "Python",
-        "Flask",
-        "JavaScript",
-        "React",
-        "HTML",
-        "CSS",
-        "PostgreSQL",
-        "Node.js",
-      ],
-      link: "https://github.com/CanadaBadiane/CasaMode",
-      status: "En cours",
-    },
   ];
 
   // Rendu du composant Projets
