@@ -4,6 +4,23 @@ const Projects = () => {
   const projects = [
     {
       id: 1,
+      title: "QuickParking",
+      desc: "Application web transactionnelle de gestion de parking avec interface intuitive.",
+      image: "/images/projects/quickParking.png",
+      languages: [
+        "Next.js",
+        "Tailwind CSS",
+        "TypeScript",
+        "Prisma",
+        "PostgreSQL",
+        "Clerk",
+        "Stripe",
+      ],
+      link: "https://github.com/CanadaBadiane/QuickParking",
+      status: "En cours",
+    },
+    {
+      id: 2,
       title: "Portfolio",
       desc: "Portfolio personnel codé avec React et Tailwind, présentant mes projets et compétences en développement web et mobile.",
       image: "/images/projects/portfolio.png",
@@ -12,7 +29,7 @@ const Projects = () => {
       status: "Terminé",
     },
     {
-      id: 2,
+      id: 3,
       title: "Mini-Doctolib",
       desc: "Application web de prise de rendez-vous médicaux avec interface intuitive.",
       image: "/images/projects/mini-doctolib.png",
@@ -21,7 +38,7 @@ const Projects = () => {
       status: "Terminé",
     },
     {
-      id: 3,
+      id: 4,
       title: "Quiz Master",
       desc: "Application mobile multiplateforme qui permet aux utilisateurs de tester leurs connaissances à travers différentes catégories et modes de jeu.",
       image: "/images/projects/quizMaster.png",
@@ -30,7 +47,7 @@ const Projects = () => {
       status: "Terminé",
     },
     {
-      id: 4,
+      id: 5,
       title: "Ma Blibliothèque Personnelle",
       desc: "Application web permettant de gérer sa bibliothèque personnelle : ajout, modification, suppression de ses livres et une page catalogue.",
       image: "/images/projects/maBibliotheque.png",
@@ -46,30 +63,13 @@ const Projects = () => {
       status: "Terminé",
     },
     {
-      id: 5,
+      id: 6,
       title: "Pokédex",
       desc: "Page web statique affichant une galerie d’images Pokémon, conçue en HTML et CSS.",
       image: "/images/projects/pokedex.png",
       languages: ["HTML", "CSS"],
       link: "https://github.com/CanadaBadiane/Pokedex",
       status: "Terminé",
-    },
-    {
-      id: 6,
-      title: "QuickParking",
-      desc: "Application web transactionnelle de gestion de parking avec interface intuitive.",
-      image: "/images/projects/quickParking.png",
-      languages: [
-        "Next.js",
-        "Tailwind CSS",
-        "TypeScript",
-        "Prisma",
-        "PostgreSQL",
-        "Clerk",
-        "Stripe",
-      ],
-      link: "https://github.com/CanadaBadiane/QuickParking",
-      status: "En cours",
     },
   ];
 
