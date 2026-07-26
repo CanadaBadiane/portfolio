@@ -36,7 +36,7 @@ const Projects = () => {
       languages: [
         "WordPress",
         "WooCommerce",
-        "ACF PRO",
+        "ACF Pro",
         "Polylang",
         "PHP",
         "PhpMyAdmin",
