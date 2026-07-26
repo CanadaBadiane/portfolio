@@ -3,7 +3,7 @@ const Footer = () => {
   // Rendu du composant Footer
   return (
     <footer className="bg-gray-800 text-white text-center p-4 mt-12">
-      <p>&copy; 2025 Canada Badiane. Tous droits réservés.</p>
+      <p>&copy; 2025-2026 Canada Badiane. Tous droits réservés.</p>
     </footer>
   );
 };

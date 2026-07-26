@@ -32,46 +32,44 @@ const About = () => {
               <span className="text-fuchsia-400 font-semibold">
                 site e-commerce
               </span>
-              . J'ai adoré concevoir l'interface, jouer avec les couleurs et les
-              animations pour offrir une{" "}
-              <span className="text-fuchsia-400 font-semibold">
-                expérience fluide
-              </span>
-              . Ce projet m'a donné envie d'approfondir les{" "}
-              <span className="text-fuchsia-400 font-semibold">
-                bonnes pratiques
-              </span>{" "}
-              et de{" "}
-              <span className="text-fuchsia-400 font-semibold">structurer</span>{" "}
-              mon code. En formation de{" "}
+              . J'ai adoré concevoir l'interface et jouer avec les couleurs et
+              les animations pour offrir une expérience fluide. Ce projet m'a
+              donné envie d'approfondir les bonnes pratiques et de structurer
+              mon code.
+              <br />
+              <br />
+              En formation de{" "}
               <span className="text-fuchsia-400 font-semibold">
                 développement de logiciels
+              </span>{" "}
+              au{" "}
+              <span className="text-fuchsia-400 font-semibold">
+                Collège de Maisonneuve
               </span>
               , j'ai consolidé mes bases en{" "}
               <span className="text-fuchsia-400 font-semibold">HTML/CSS</span>{" "}
-              et appris{" "}
+              et me suis formée en{" "}
               <span className="text-fuchsia-400 font-semibold">React</span>,{" "}
-              <span className="text-fuchsia-400 font-semibold">Tailwind</span>{" "}
-              et les logiques{" "}
-              <span className="text-fuchsia-400 font-semibold">backend</span>.
-              Je continue à explorer le design tech et à développer mes
+              <span className="text-fuchsia-400 font-semibold">Tailwind</span>,{" "}
+              <span className="text-fuchsia-400 font-semibold">TypeScript</span>
+              , <span className="text-fuchsia-400 font-semibold">Flutter</span>,
+              ainsi qu'aux logiques{" "}
+              <span className="text-fuchsia-400 font-semibold">backend</span>,
+              aux{" "}
+              <span className="text-fuchsia-400 font-semibold">
+                bases de données
+              </span>{" "}
+              et à{" "}
+              <span className="text-fuchsia-400 font-semibold">Git/GitHub</span>
+              . Je continue à explorer le design tech et à développer mes
               compétences sur la{" "}
               <span className="text-fuchsia-400 font-semibold">
                 logique métier
               </span>
-              , tout en m'initiant avec enthousiasme au{" "}
-              <span className="text-fuchsia-400 font-semibold">
-                développement mobile
-              </span>{" "}
-              avec{" "}
-              <span className="text-fuchsia-400 font-semibold">Flutter</span>.
-              Je suis actuellement à la recherche d'un{" "}
-              <span className="text-fuchsia-400 font-semibold">stage</span> pour
-              mettre en pratique mes compétences et contribuer à des{" "}
-              <span className="text-fuchsia-400 font-semibold">
-                projets innovants
-              </span>
-              .
+              . Je suis actuellement à la recherche d'un{" "}
+              <span className="text-fuchsia-400 font-semibold">emploi</span>{" "}
+              pour mettre en pratique mes compétences et contribuer à des
+              projets innovants.
             </p>
           </div>
         </div>
@@ -211,6 +209,24 @@ const About = () => {
                     conception tels que Singleton, Factory et Observer, qui
                     m’ont aidé à structurer mon code de manière modulaire,
                     réutilisable et maintenable.
+                  </div>
+                </div>
+                <div className="bg-white/10 p-4 rounded-lg shadow-md w-full text-left">
+                  <span className="font-bold text-indigo-400">2026</span>
+                  <div>
+                    <span className="font-bold">
+                      Stage chez Pandora Brand Marketing :{" "}
+                    </span>
+                    J’ai appris WordPress, WooCommerce, ACF Pro, Polylang et PHP
+                    lors de mon stage chez Pandora Brand Marketing, en
+                    travaillant sur un projet nommé Alaska. Cette expérience m’a
+                    permis de découvrir la personnalisation de sites web, la
+                    gestion de boutiques en ligne, la mise en place d'un site
+                    bilingue et le développement de fonctionnalités sur mesure.
+                    J’ai également travaillé sur un second projet, Sportex, qui
+                    m’a permis d’approfondir React, TypeScript, Flask, Stripe et
+                    PostgreSQL, et de renforcer mes compétences en développement
+                    web moderne dans un milieu professionnel.
                   </div>
                 </div>
               </div>
